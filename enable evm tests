@@ -1,0 +1,21 @@
+Enable three EVM tests that were forgotten. (#3838)
+## Motivation
+
+The tests for EVM were not enabled for the CI.
+
+## Proposal
+
+The cargo command is changed to `cargo test evm` which makes some small
+repetition with other tests. But that is fine.
+
+## Test Plan
+
+The CI.
+
+## Release Plan
+
+Normal release plan.
+
+## Links
+
+None
